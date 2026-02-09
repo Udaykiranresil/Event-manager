@@ -1,0 +1,113 @@
+        body {
+            background-color: rgb(16, 8, 34);
+            user-select: none;
+        }
+
+        .main-heading {
+            color: gold;
+            margin-left: 520px;
+            margin-top: 60px;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .welcome {
+            color: orange;
+            margin-left: 565px;
+            margin-top: 0px;
+        }
+
+        .main-button {
+            margin-left: 380px;
+            margin-right: 200px;
+            height: 400px;
+            width: 550px;
+            margin-top: 30px;
+            background-color: rgb(16, 8, 34);
+            border-style: solid;
+            border-color: rgb(16, 8, 34);
+            transition: border-color 1s, border-radius 1s, box-shadow 1s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .main-button:hover {
+            border-color: rgb(108, 230, 108);
+            border-radius: 80px;
+            box-shadow: 0 0 20px rgb(108, 230, 108);
+        }
+
+        .login-text {
+            display: block;
+            color: aqua;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+
+        .sign-up {
+            display: block;
+            color: aqua;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+
+        .username,
+        .password,
+        .submit {
+            margin-top: 50px;
+            width: 290px;
+            height: 56px;
+            border-radius: 10px;
+            border-color: rgb(241, 156, 103);
+            border-style: solid;
+            background: #b3c3df;
+            font-size: 20px;
+            font-weight: bold;
+            transition: background-color 0.5s, box-shadow 0.5s, font-size 0.3s, border-radius 0.8s, border-color 0.5s, border-style 0.5s;
+            padding-left: 10px;
+        }
+
+        .username:focus,
+        .password:focus {
+            background-color: white;
+            box-shadow: 0 0 15px gold;
+            font-size: 20px;
+            font-weight: normal;
+            border-radius: 20px;
+            border-color: gold;
+            border-style: solid;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgba(0, 0, 0, 0.608);
+        }
+
+        .password {
+            margin-top: 30px;
+        }
+
+        .submit {
+            margin-top: 20px;
+            width: 140px;
+            margin-left: 10px;
+            padding-right: 20px;
+            cursor: pointer;
+            border-color: orange;
+            box-shadow: 0 0 10px gold;
+            background-color: rgba(13, 236, 236, 0.909);
+            color: rgba(0, 0, 0, 0.871);
+            transition: opacity 1s, box-shadow 1s;
+        }
+
+        .submit:hover {
+            opacity: 0.8;
+        }
+
+        .submit:active {
+            opacity: 0.1;
+            box-shadow: 0 0 0 gold;
+        }
